@@ -14,7 +14,7 @@ dependencies {
     compile 'org.codehaus.groovy:groovy-all:2.3.11'
     testCompile 'org.testng:testng:6.9.9'
     compile 'io.appium:java-client:3.0.0'
-    testCompile 'org.seleniumhq.selenium:selenium-java:2.45.0'
+    testCompile 'org.seleniumhq.selenium:selenium-java:2.53.1'
     testCompile 'com.googlecode.json-simple:json-simple:1.1'
     testCompile 'commons-lang:commons-lang:2.6'
     compile 'com.google.code.gson:gson:2.2.4'
