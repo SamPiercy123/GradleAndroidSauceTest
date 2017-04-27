@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.applitools:eyes-sdk-java3-jersey2x:3.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.applitools/eyes-sdk-java3-jersey2x/3.1/55fef26287e3223bdf09f8920cdfd1329af0a582/eyes-sdk-java3-jersey2x-3.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.applitools/eyes-sdk-java3-jersey2x/3.1/44f0b8184b2bf2fc25c5950ce2192c139172a729/eyes-sdk-java3-jersey2x-3.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
