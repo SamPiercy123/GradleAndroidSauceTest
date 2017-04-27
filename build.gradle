@@ -23,6 +23,24 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
 
-test{
-    useTestNG()
+//noinspection GroovyAssignabilityCheck
+task runAndroidShort(type: JavaExec, dependsOn: 'classes') {
+    main = 'org.testng.TestNG'
+    classpath = files("./src/test/java/tests",
+            project.sourceSets.main.compileClasspath,
+            project.sourceSets.test.compileClasspath,
+            project.sourceSets.main.runtimeClasspath,
+            project.sourceSets.test.runtimeClasspath)
+    args = ["-parallel",  "methods", "-threadcount", "1", "-d", "./build/test-output", "androidTestSuiteShort.xml"]
+}
+
+//noinspection GroovyAssignabilityCheck
+task runiOSShort(type: JavaExec, dependsOn: 'classes') {
+    main = 'org.testng.TestNG'
+    classpath = files("./src/test/java/tests",
+            project.sourceSets.main.compileClasspath,
+            project.sourceSets.test.compileClasspath,
+            project.sourceSets.main.runtimeClasspath,
+            project.sourceSets.test.runtimeClasspath)
+    args = ["-parallel",  "methods", "-threadcount", "1", "-d", "./build/test-output", "iOSTestSuiteShort.xml"]
 }

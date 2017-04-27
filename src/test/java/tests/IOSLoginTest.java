@@ -1,14 +1,12 @@
-/**
- * Created by sampiercy on 25/04/2017.
- */
-
+package tests;
 
 import com.saucelabs.common.SauceOnDemandAuthentication;
 import com.saucelabs.common.SauceOnDemandSessionIdProvider;
 import com.saucelabs.testng.SauceOnDemandAuthenticationProvider;
 import com.saucelabs.testng.SauceOnDemandTestListener;
 import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.ios.IOSDriver;
+import io.appium.java_client.remote.MobileCapabilityType;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -23,7 +21,11 @@ import org.testng.annotations.Test;
 import java.lang.reflect.Method;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.List;
+
+/**
+ * Created by laurentmeert on 26/04/2017.
+ */
+
 
 /**
  * Simple TestNG test which demonstrates being instantiated via a DataProvider in order to supply multiple browser combinations.
@@ -32,7 +34,7 @@ import java.util.List;
  */
 
 @Listeners({SauceOnDemandTestListener.class})
-public class SampleSauceTest implements SauceOnDemandSessionIdProvider, SauceOnDemandAuthenticationProvider {
+public class IOSLoginTest implements SauceOnDemandSessionIdProvider, SauceOnDemandAuthenticationProvider {
 
     /**
      * Constructs a {@link com.saucelabs.common.SauceOnDemandAuthentication} instance using the supplied user name/access key.  To use the authentication
@@ -59,8 +61,8 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider, SauceOnD
     @DataProvider(name = "hardCodedBrowsers", parallel = true)
     public static Object[][] sauceBrowserDataProvider(Method testMethod) {
         return new Object[][]{
-                new Object[]{"Android", "Samsung Galaxy S4 Emulator", "4.4", "sauce-storage:OCSAndroid.apk", "", "portrait", "1.6.3"},
-                new Object[]{"Android", "Samsung Galaxy S3 Emulator", "4.4", "sauce-storage:OCSAndroid.apk", "", "portrait", "1.6.3"},
+                new Object[]{"iOS", "iPhone 7 Simulator", "10.2", "sauce-storage:OCS.zip", "", "portrait", "1.6.3"},
+                new Object[]{"iOS", "iPhone 6 Simulator", "10.2", "sauce-storage:OCS.zip", "", "portrait", "1.6.3"},
         };
     }
 
@@ -88,6 +90,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider, SauceOnD
         capabilities.setCapability("browserName", browserName);
         capabilities.setCapability("deviceOrientation", deviceOrientation);
         capabilities.setCapability("appiumVersion", appiumVersion);
+        capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "XCUITest");
 
         String jobName = methodName + '_' + deviceName + '_' + platformName + '_' + platformVersion;
         capabilities.setCapability("name", jobName);
@@ -96,7 +99,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider, SauceOnD
                 new URL("http://" + authentication.getUsername() + ":" + authentication.getAccessKey() + "@ondemand.saucelabs.com:80/wd/hub"),
                 capabilities);*/
 
-        webDriver.set(new AndroidDriver<>(
+        webDriver.set(new IOSDriver(
                 new URL("http://" + authentication.getUsername() + ":" + authentication.getAccessKey() + "@ondemand.saucelabs.com:80/wd/hub"),
                 capabilities));
         String id = getWebDriver().getSessionId().toString();
@@ -117,7 +120,10 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider, SauceOnD
     public void addContactTest(String platformName, String deviceName, String platformVersion, String app, String browserName, String deviceOrientation, String appiumVersion, Method method) throws Exception {
         WebDriver driver = createDriver(platformName, deviceName, platformVersion, app, browserName, deviceOrientation, appiumVersion, method.getName());
 
-        WebDriverWait  webDriverWait = new WebDriverWait(driver, 60);
+        WebDriverWait webDriverWait = new WebDriverWait(driver, 60);
+
+        webDriverWait.until(ExpectedConditions.alertIsPresent());
+        driver.switchTo().alert().accept();
 
         webDriverWait.until(ExpectedConditions.presenceOfElementLocated(By.id("burger_icon")));
 
@@ -127,7 +133,6 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider, SauceOnD
 
    /*     WebElement addContactButton = driver.findElement(By.name("Add Contact"));
         addContactButton.click();
-
         List<WebElement> textFieldsList = driver.findElements(By.className("android.widget.EditText"));
         textFieldsList.get(0).sendKeys("Some Name");
         textFieldsList.get(2).sendKeys("Some@example.com");
@@ -160,4 +165,3 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider, SauceOnD
         return authentication;
     }
 }
-
