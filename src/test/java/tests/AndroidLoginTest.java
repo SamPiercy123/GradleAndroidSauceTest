@@ -58,8 +58,8 @@ public class AndroidLoginTest implements SauceOnDemandSessionIdProvider, SauceOn
     @DataProvider(name = "hardCodedBrowsers", parallel = true)
     public static Object[][] sauceBrowserDataProvider(Method testMethod) {
         return new Object[][]{
-                new Object[]{"Android", "Samsung Galaxy S4 Emulator", "4.4", "sauce-storage:OCSAndroid.apk", "", "portrait", "1.6.3"},
-                new Object[]{"Android", "Samsung Galaxy S3 Emulator", "4.4", "sauce-storage:OCSAndroid.apk", "", "portrait", "1.6.3"},
+                new Object[]{"Android", "Samsung Galaxy S4 Emulator", "4.4", "sauce-storage:ocsandroidbuild.apk", "", "portrait", "1.6.3"},
+                new Object[]{"Android", "Samsung Galaxy S3 Emulator", "4.4", "sauce-storage:ocsandroidbuild.apk", "", "portrait", "1.6.3"},
         };
     }
 
@@ -124,8 +124,8 @@ public class AndroidLoginTest implements SauceOnDemandSessionIdProvider, SauceOn
         WebDriverWait  webDriverWait = new WebDriverWait(driver, 60);
 
         webDriverWait.until(ExpectedConditions.presenceOfElementLocated(By.id("burger_icon")));
-
         eyes.checkWindow("Home");
+
 
         WebElement burger = driver.findElement(By.id("burger_icon"));
 
