@@ -56,6 +56,7 @@ public class AndroidLoginTest implements SauceOnDemandSessionIdProvider, SauceOn
     private static BatchInfo batchInfo = new BatchInfo(System.getenv("JOB_NAME") == null ? System.getenv("JOB_NAME") : "Responsive" );
 
 
+
     /**
      * DataProvider that explicitly sets the browser combinations to be used.
      *

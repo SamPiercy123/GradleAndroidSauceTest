@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="27d2e8c3-7262-4085-8a00-46a76ee3a8c3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/AndroidLoginTest.java" afterPath="$PROJECT_DIR$/src/test/java/tests/AndroidLoginTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/IOSLoginTest.java" afterPath="$PROJECT_DIR$/src/test/java/tests/IOSLoginTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -64,16 +65,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidLoginTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AndroidLoginTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/AndroidLoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="65" column="74" lean-forward="true" selection-start-line="65" selection-start-column="74" selection-end-line="65" selection-end-column="74" />
+            <state relative-caret-position="1800">
+              <caret line="141" column="23" lean-forward="true" selection-start-line="141" selection-start-column="23" selection-end-line="141" selection-end-column="23" />
               <folding>
-                <marker date="1493734014000" expanded="false" signature="7511:7522" ph=" { " />
-                <marker date="1493734014000" expanded="false" signature="7545:7551" ph=" }" />
-                <marker date="1493734014000" expanded="false" signature="7753:7764" ph=" { " />
-                <marker date="1493734014000" expanded="false" signature="7786:7792" ph=" }" />
+                <marker date="1493735370000" expanded="false" signature="7512:7523" ph=" { " />
+                <marker date="1493735370000" expanded="false" signature="7546:7552" ph=" }" />
+                <marker date="1493735370000" expanded="false" signature="7754:7765" ph=" { " />
+                <marker date="1493735370000" expanded="false" signature="7787:7793" ph=" }" />
               </folding>
             </state>
           </provider>
@@ -82,9 +83,12 @@
       <file leaf-file-name="BatchInfo.java" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.applitools/eyes-common-java3/3.1/a786c5703242e4540281242c7715414bcf261fcf/eyes-common-java3-3.1-sources.jar!/com/applitools/eyes/BatchInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-148">
-              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="435">
+              <caret line="37" column="54" lean-forward="true" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
+              <folding>
+                <element signature="e#1184#1185#0" expanded="true" />
+                <element signature="e#1270#1271#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,17 +116,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IOSLoginTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="IOSLoginTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/IOSLoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="65" column="118" lean-forward="true" selection-start-line="65" selection-start-column="118" selection-end-line="65" selection-end-column="118" />
+            <state relative-caret-position="497">
+              <caret line="62" column="30" lean-forward="true" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#7205#7206#0" expanded="true" />
-                <element signature="e#7243#7244#0" expanded="true" />
-                <element signature="e#7447#7448#0" expanded="true" />
-                <element signature="e#7484#7485#0" expanded="true" />
+                <element signature="e#7214#7215#0" expanded="true" />
+                <element signature="e#7252#7253#0" expanded="true" />
+                <element signature="e#7456#7457#0" expanded="true" />
+                <element signature="e#7493#7494#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -549,8 +553,8 @@
         <option value="$PROJECT_DIR$/androidTestSuiteShort.xml" />
         <option value="$PROJECT_DIR$/iOSTestSuiteShort.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/IOSLoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/AndroidLoginTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/IOSLoginTest.java" />
       </list>
     </option>
   </component>
@@ -1277,10 +1281,10 @@
           <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#7205#7206#0" expanded="true" />
-            <element signature="e#7243#7244#0" expanded="true" />
-            <element signature="e#7447#7448#0" expanded="true" />
-            <element signature="e#7484#7485#0" expanded="true" />
+            <element signature="e#7214#7215#0" expanded="true" />
+            <element signature="e#7252#7253#0" expanded="true" />
+            <element signature="e#7456#7457#0" expanded="true" />
+            <element signature="e#7493#7494#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1390,20 +1394,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/IOSLoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="65" column="118" lean-forward="true" selection-start-line="65" selection-start-column="118" selection-end-line="65" selection-end-column="118" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7205#7206#0" expanded="true" />
-            <element signature="e#7243#7244#0" expanded="true" />
-            <element signature="e#7447#7448#0" expanded="true" />
-            <element signature="e#7484#7485#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1422,21 +1412,38 @@
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.applitools/eyes-common-java3/3.1/a786c5703242e4540281242c7715414bcf261fcf/eyes-common-java3-3.1-sources.jar!/com/applitools/eyes/BatchInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-148">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="435">
+          <caret line="37" column="54" lean-forward="true" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
+          <folding>
+            <element signature="e#1184#1185#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/AndroidLoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="65" column="74" lean-forward="true" selection-start-line="65" selection-start-column="74" selection-end-line="65" selection-end-column="74" />
+        <state relative-caret-position="1800">
+          <caret line="141" column="23" lean-forward="true" selection-start-line="141" selection-start-column="23" selection-end-line="141" selection-end-column="23" />
           <folding>
-            <marker date="1493734014000" expanded="false" signature="7511:7522" ph=" { " />
-            <marker date="1493734014000" expanded="false" signature="7545:7551" ph=" }" />
-            <marker date="1493734014000" expanded="false" signature="7753:7764" ph=" { " />
-            <marker date="1493734014000" expanded="false" signature="7786:7792" ph=" }" />
+            <marker date="1493735370000" expanded="false" signature="7512:7523" ph=" { " />
+            <marker date="1493735370000" expanded="false" signature="7546:7552" ph=" }" />
+            <marker date="1493735370000" expanded="false" signature="7754:7765" ph=" { " />
+            <marker date="1493735370000" expanded="false" signature="7787:7793" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/IOSLoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="62" column="30" lean-forward="true" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#7214#7215#0" expanded="true" />
+            <element signature="e#7252#7253#0" expanded="true" />
+            <element signature="e#7456#7457#0" expanded="true" />
+            <element signature="e#7493#7494#0" expanded="true" />
           </folding>
         </state>
       </provider>
