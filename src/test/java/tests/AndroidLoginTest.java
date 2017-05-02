@@ -2,6 +2,7 @@ package tests; /**
  * Created by sampiercy on 25/04/2017.
  */
 
+import com.applitools.eyes.BatchInfo;
 import com.applitools.eyes.selenium.Eyes;
 import com.saucelabs.common.SauceOnDemandAuthentication;
 import com.saucelabs.common.SauceOnDemandSessionIdProvider;
@@ -48,6 +49,12 @@ public class AndroidLoginTest implements SauceOnDemandSessionIdProvider, SauceOn
      * ThreadLocal variable which contains the Sauce Job Id.
      */
     private ThreadLocal<String> sessionId = new ThreadLocal<>();
+
+    /**
+     * BatchInfo including applitools batch id to link with the correct job
+     */
+    private static BatchInfo batchInfo = new BatchInfo(System.getenv("JOB_NAME") == null ? System.getenv("JOB_NAME") : "Responsive" );
+
 
     /**
      * DataProvider that explicitly sets the browser combinations to be used.
@@ -118,6 +125,8 @@ public class AndroidLoginTest implements SauceOnDemandSessionIdProvider, SauceOn
 
         Eyes eyes = new Eyes();
         eyes.setApiKey("fdQk4EllFiQdayTkG2q9dEB3XO2tlIX3PYU1wIpIANg110");
+        batchInfo.setId(System.getenv("APPLITOOLS_BATCH_ID"));
+        eyes.setBatch(batchInfo);
 
         driver = eyes.open(driver, "OCS" , method.getName());
 

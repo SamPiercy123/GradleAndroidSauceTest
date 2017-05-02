@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27d2e8c3-7262-4085-8a00-46a76ee3a8c3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/IOSLoginTest.java" afterPath="$PROJECT_DIR$/src/test/java/tests/IOSLoginTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/AndroidLoginTest.java" afterPath="$PROJECT_DIR$/src/test/java/tests/AndroidLoginTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -47,8 +47,8 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+            <state relative-caret-position="360">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="46" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -64,11 +64,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidLoginTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AndroidLoginTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/AndroidLoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1240">
-              <caret line="110" column="65" lean-forward="true" selection-start-line="110" selection-start-column="65" selection-end-line="110" selection-end-column="65" />
+            <state relative-caret-position="389">
+              <caret line="65" column="74" lean-forward="true" selection-start-line="65" selection-start-column="74" selection-end-line="65" selection-end-column="74" />
+              <folding>
+                <marker date="1493734014000" expanded="false" signature="7511:7522" ph=" { " />
+                <marker date="1493734014000" expanded="false" signature="7545:7551" ph=" }" />
+                <marker date="1493734014000" expanded="false" signature="7753:7764" ph=" { " />
+                <marker date="1493734014000" expanded="false" signature="7786:7792" ph=" }" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BatchInfo.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.applitools/eyes-common-java3/3.1/a786c5703242e4540281242c7715414bcf261fcf/eyes-common-java3-3.1-sources.jar!/com/applitools/eyes/BatchInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-148">
+              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -97,11 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IOSLoginTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IOSLoginTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/IOSLoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+            <state relative-caret-position="542">
+              <caret line="65" column="118" lean-forward="true" selection-start-line="65" selection-start-column="118" selection-end-line="65" selection-end-column="118" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#7205#7206#0" expanded="true" />
@@ -136,6 +151,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>SampleSauceTestFakey</find>
+      <find>env</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -533,8 +549,8 @@
         <option value="$PROJECT_DIR$/androidTestSuiteShort.xml" />
         <option value="$PROJECT_DIR$/iOSTestSuiteShort.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/AndroidLoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/IOSLoginTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/AndroidLoginTest.java" />
       </list>
     </option>
   </component>
@@ -1138,17 +1154,17 @@
     <history-entry file="AndroidLoginTest - 2017.04.27 at 15h 49m 01s.xml">
       <configuration name="AndroidLoginTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SampleSauceTest - 2017.04.26 at 12h 34m 16s.xml">
-      <configuration name="SampleSauceTest" configurationId="TestNG" />
+    <history-entry file="AndroidLoginTest - 2017.05.02 at 10h 36m 26s.xml">
+      <configuration name="AndroidLoginTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SampleSauceTest - 2017.04.26 at 12h 35m 41s.xml">
-      <configuration name="SampleSauceTest" configurationId="TestNG" />
+    <history-entry file="AndroidLoginTest - 2017.05.02 at 10h 50m 40s.xml">
+      <configuration name="AndroidLoginTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SampleSauceTest - 2017.04.26 at 12h 47m 17s.xml">
-      <configuration name="SampleSauceTest" configurationId="TestNG" />
+    <history-entry file="AndroidLoginTest - 2017.05.02 at 10h 52m 34s.xml">
+      <configuration name="AndroidLoginTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_sampiercy_IdeaProjects_GradleAndroidSauce_testng_xml - 2017.04.26 at 17h 51m 36s.xml">
-      <configuration name="/Users/sampiercy/IdeaProjects/GradleAndroidSauce/testng.xml" configurationId="TestNG" />
+    <history-entry file="AndroidLoginTest - 2017.05.02 at 11h 04m 14s.xml">
+      <configuration name="AndroidLoginTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1165,18 +1181,18 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965517" sideWeight="0.49713877" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920355" sideWeight="0.49520767" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965517" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22920354" sideWeight="0.51331204" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22920354" sideWeight="0.51544195" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22920354" sideWeight="0.48668796" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22920354" sideWeight="0.48455805" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965517" sideWeight="0.49427754" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965517" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920355" sideWeight="0.49520767" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18849841" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1319,14 +1335,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tests/SampleSauceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-789">
@@ -1382,32 +1390,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/AndroidLoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1240">
-          <caret line="110" column="65" lean-forward="true" selection-start-line="110" selection-start-column="65" selection-end-line="110" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/IOSLoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+        <state relative-caret-position="542">
+          <caret line="65" column="118" lean-forward="true" selection-start-line="65" selection-start-column="118" selection-end-line="65" selection-end-column="118" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#7205#7206#0" expanded="true" />
             <element signature="e#7243#7244#0" expanded="true" />
             <element signature="e#7447#7448#0" expanded="true" />
             <element signature="e#7484#7485#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="46" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.applitools/eyes-common-java3/3.1/a786c5703242e4540281242c7715414bcf261fcf/eyes-common-java3-3.1-sources.jar!/com/applitools/eyes/BatchInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-148">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/AndroidLoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="65" column="74" lean-forward="true" selection-start-line="65" selection-start-column="74" selection-end-line="65" selection-end-column="74" />
+          <folding>
+            <marker date="1493734014000" expanded="false" signature="7511:7522" ph=" { " />
+            <marker date="1493734014000" expanded="false" signature="7545:7551" ph=" }" />
+            <marker date="1493734014000" expanded="false" signature="7753:7764" ph=" { " />
+            <marker date="1493734014000" expanded="false" signature="7786:7792" ph=" }" />
           </folding>
         </state>
       </provider>
