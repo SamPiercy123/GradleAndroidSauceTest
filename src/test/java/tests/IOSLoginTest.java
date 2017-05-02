@@ -63,6 +63,7 @@ public class IOSLoginTest implements SauceOnDemandSessionIdProvider, SauceOnDema
         return new Object[][]{
                 new Object[]{"iOS", "iPhone 7 Simulator", "10.2", "sauce-storage:OCS.zip", "", "portrait", "1.6.3"},
                 new Object[]{"iOS", "iPhone 6 Simulator", "10.2", "sauce-storage:OCS.zip", "", "portrait", "1.6.3"},
+                new Object[]{"iOS", "iPad Air 2 Simulator", "10.2", "sauce-storage:OCS.zip", "", "portrait", "1.6.3"},
         };
     }
 
