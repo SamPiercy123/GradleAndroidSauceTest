@@ -1,5 +1,7 @@
 package tests;
 
+import com.applitools.eyes.BatchInfo;
+import com.applitools.eyes.selenium.Eyes;
 import com.saucelabs.common.SauceOnDemandAuthentication;
 import com.saucelabs.common.SauceOnDemandSessionIdProvider;
 import com.saucelabs.testng.SauceOnDemandAuthenticationProvider;
@@ -51,6 +53,12 @@ public class IOSLoginTest implements SauceOnDemandSessionIdProvider, SauceOnDema
      * ThreadLocal variable which contains the Sauce Job Id.
      */
     private ThreadLocal<String> sessionId = new ThreadLocal<>();
+
+    /**
+     * BatchInfo including applitools batch id to link with the correct job
+     */
+    private static BatchInfo batchInfo = new BatchInfo(System.getenv("JOB_NAME") == null ? System.getenv("JOB_NAME") : "Responsive" );
+
 
     /**
      * DataProvider that explicitly sets the browser combinations to be used.
@@ -121,16 +129,26 @@ public class IOSLoginTest implements SauceOnDemandSessionIdProvider, SauceOnDema
     public void addContactTest(String platformName, String deviceName, String platformVersion, String app, String browserName, String deviceOrientation, String appiumVersion, Method method) throws Exception {
         WebDriver driver = createDriver(platformName, deviceName, platformVersion, app, browserName, deviceOrientation, appiumVersion, method.getName());
 
+        Eyes eyes = new Eyes();
+        eyes.setApiKey("fdQk4EllFiQdayTkG2q9dEB3XO2tlIX3PYU1wIpIANg110");
+        batchInfo.setId(System.getenv("APPLITOOLS_BATCH_ID"));
+        eyes.setBatch(batchInfo);
+
+        driver = eyes.open(driver, "OCS" , method.getName());
+
         WebDriverWait webDriverWait = new WebDriverWait(driver, 60);
 
         webDriverWait.until(ExpectedConditions.alertIsPresent());
         driver.switchTo().alert().accept();
 
         webDriverWait.until(ExpectedConditions.presenceOfElementLocated(By.id("burger_icon")));
+        eyes.checkWindow("HomeIOS");
 
         WebElement burger = driver.findElement(By.id("burger_icon"));
 
         burger.click();
+
+        eyes.close();
 
    /*     WebElement addContactButton = driver.findElement(By.name("Add Contact"));
         addContactButton.click();
