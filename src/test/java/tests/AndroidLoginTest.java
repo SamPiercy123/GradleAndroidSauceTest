@@ -66,8 +66,10 @@ public class AndroidLoginTest implements SauceOnDemandSessionIdProvider, SauceOn
     @DataProvider(name = "hardCodedBrowsers", parallel = true)
     public static Object[][] sauceBrowserDataProvider(Method testMethod) {
         return new Object[][]{
-                new Object[]{"Android", "Samsung Galaxy S4 Emulator", "4.4", "sauce-storage:ocsandroidbuild.apk", "", "portrait", "1.6.3"},
-                new Object[]{"Android", "Samsung Galaxy S3 Emulator", "4.4", "sauce-storage:ocsandroidbuild.apk", "", "portrait", "1.6.3"},
+                new Object[]{"Android", "Samsung Galaxy S3 GoogleAPI Emulator", "4.4", "sauce-storage:ocsandroidbuild.apk", "", "portrait", "1.6.3"},
+                new Object[]{"Android", "Google Nexus 7C GoogleAPI Emulator", "4.4", "sauce-storage:ocsandroidbuild.apk", "", "portrait", "1.6.3"},
+                new Object[]{"Android", "Google Nexus 7 HD GoogleAPI Emulator", "4.4", "sauce-storage:ocsandroidbuild.apk", "", "portrait", "1.6.3"},
+                new Object[]{"Android", "Samsung Galaxy S4 GoogleAPI Emulator", "4.4", "sauce-storage:ocsandroidbuild.apk", "", "portrait", "1.6.3"},
         };
     }
 
