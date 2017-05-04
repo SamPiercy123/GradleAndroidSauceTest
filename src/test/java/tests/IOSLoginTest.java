@@ -73,7 +73,7 @@ public class IOSLoginTest implements SauceOnDemandSessionIdProvider, SauceOnDema
                 new Object[]{"iOS", "iPhone 6 Simulator", "10.2", "sauce-storage:ocsios.zip", "", "portrait", "1.6.3"},
                 new Object[]{"iOS", "iPad Air 2 Simulator", "10.2", "sauce-storage:ocsios.zip", "", "portrait", "1.6.3"},
                 new Object[]{"iOS", "iPhone 6 Simulator", "9.3", "sauce-storage:ocsios.zip", "", "portrait", "1.6.3"},
-                new Object[]{"iOS", "iPhone 6 Simulator", "8.4", "sauce-storage:ocsios.zip", "", "portrait", "1.6.3"},
+            /*    new Object[]{"iOS", "iPhone 6 Simulator", "8.4", "sauce-storage:ocsios.zip", "", "portrait", "1.6.3"},*/ //ATM 8.4 not working on the 10.2 sim .app build
         };
     }
 
